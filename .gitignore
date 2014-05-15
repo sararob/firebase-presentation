@@ -4,3 +4,11 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
+# idea
+.idea
+*.iml
+*.ipr
+*.iws
+
+# OS X
+.DS_Store

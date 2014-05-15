@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+
+    <script>
+        var controlRef = new Firebase('https://slidee.firebaseio.com/control/');
+
+        function prev() {
+            controlRef.push('prev');
+        }
+
+        function next() {
+            controlRef.push('next');
+        }
+    </script>
+</head>
+<body>
+    <button onclick="prev()"><-</button>
+    <button onclick="next()">-></button>
+
+
+</body>
+</html>
